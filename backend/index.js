@@ -15,6 +15,7 @@ const users = [
 
 app.get('/usuarios', function (request, response) {
   response.json(users)
+  console.log(request)
 })
 
 app.post('/usuarios', function (request, response) {
